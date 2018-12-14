@@ -3,14 +3,14 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="54" y="150" />
+        <Position x="54" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <NumRows value="10" />
           <Fields>
             <Field name="Name" />
-            <Field name="Crew Role" />
+            <Field name="Crew" />
           </Fields>
           <Data>
             <r>

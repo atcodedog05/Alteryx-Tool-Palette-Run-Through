@@ -2,66 +2,41 @@
 <AlteryxDocument yxmdVer="2018.4">
   <Nodes>
     <Node ToolID="1">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="54" y="150" />
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <NumRows value="10" />
-          <Fields>
-            <Field name="Name" />
-            <Field name="Crew Role" />
-          </Fields>
-          <Data>
-            <r>
-              <c>Monkey D Luffy</c>
-              <c>Captain</c>
-            </r>
-            <r>
-              <c>Roronoa Zoro</c>
-              <c>Swordsman</c>
-            </r>
-            <r>
-              <c>Nami</c>
-              <c>Navigator</c>
-            </r>
-            <r>
-              <c>Usopp</c>
-              <c>Sniper</c>
-            </r>
-            <r>
-              <c>Vinsmoke Sanji</c>
-              <c>Cook</c>
-            </r>
-            <r>
-              <c>Tony Tony Chopper</c>
-              <c>Doctor</c>
-            </r>
-            <r>
-              <c>Nico Robin</c>
-              <c>Archaeologist</c>
-            </r>
-            <r>
-              <c>Franky</c>
-              <c>Shipwright</c>
-            </r>
-            <r>
-              <c>Brook</c>
-              <c>Musician</c>
-            </r>
-            <r>
-              <c>Jinbe</c>
-              <c>Helmsman</c>
-            </r>
-          </Data>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:AWS MS SQL|||"tempdb"."dbo"."crew"</File>
+          <FormatSpecificOptions>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <ReadCentroids>False</ReadCentroids>
+            <NoProgress>True</NoProgress>
+            <ReadUncommitted>False</ReadUncommitted>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <PostSQL />
+          </FormatSpecificOptions>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText />
+          <DefaultAnnotationText>aka:AWS MS SQL
+Table="tempdb"."dbo"."crew"</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="17" source="File: aka:AWS MS SQL|||&quot;tempdb&quot;.&quot;dbo&quot;.&quot;crew&quot;" type="V_String" />
+            <Field name="Crew Role" size="13" source="File: aka:AWS MS SQL|||&quot;tempdb&quot;.&quot;dbo&quot;.&quot;crew&quot;" type="String" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
     </Node>
   </Nodes>
   <Connections />
@@ -83,7 +58,7 @@
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>Text Input Tool</Name>
+      <Name>Input Data Tool-MS SQL Server (AWS)</Name>
       <Description />
       <RootToolName />
       <ToolVersion />
