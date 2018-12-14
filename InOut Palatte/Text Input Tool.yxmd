@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="Name" />
+            <Field name="Crew" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Monkey D Luffy</c>
+              <c>Captain</c>
+            </r>
+            <r>
+              <c>Roronoa Zoro</c>
+              <c>Swordsman</c>
+            </r>
+            <r>
+              <c>Nami</c>
+              <c>Navigator</c>
+            </r>
+            <r>
+              <c>Usopp</c>
+              <c>Sniper</c>
+            </r>
+            <r>
+              <c>Vinsmoke Sanji</c>
+              <c>Cook</c>
+            </r>
+            <r>
+              <c>Tony Tony Chopper</c>
+              <c>Doctor</c>
+            </r>
+            <r>
+              <c>Nico Robin</c>
+              <c>Archaeologist</c>
+            </r>
+            <r>
+              <c>Franky</c>
+              <c>Shipwright</c>
+            </r>
+            <r>
+              <c>Brook</c>
+              <c>Musician</c>
+            </r>
+            <r>
+              <c>Jinbe</c>
+              <c>Helmsman</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Text Input Tool</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
