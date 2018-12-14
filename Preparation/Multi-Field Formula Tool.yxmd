@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.4">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Preparation\Dataset\Monthly Revenue by Store Location.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Monthly Revenue by Store Location.xlsx
+Table=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Preparation\Dataset\Monthly Revenue by Store Location.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Jan" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Preparation\Dataset\Monthly Revenue by Store Location.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Feb" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Preparation\Dataset\Monthly Revenue by Store Location.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Mar" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Preparation\Dataset\Monthly Revenue by Store Location.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Apr" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Preparation\Dataset\Monthly Revenue by Store Location.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="May" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Preparation\Dataset\Monthly Revenue by Store Location.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Jun" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Preparation\Dataset\Monthly Revenue by Store Location.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Jul" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Preparation\Dataset\Monthly Revenue by Store Location.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Aug" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Preparation\Dataset\Monthly Revenue by Store Location.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Sep" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Preparation\Dataset\Monthly Revenue by Store Location.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Oct" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Preparation\Dataset\Monthly Revenue by Store Location.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Nov" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Preparation\Dataset\Monthly Revenue by Store Location.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Dec" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Preparation\Dataset\Monthly Revenue by Store Location.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Grand Total" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Preparation\Dataset\Monthly Revenue by Store Location.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="210" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Numeric</FieldType>
+          <Fields orderChanged="False">
+            <Field name="Jan" />
+            <Field name="Feb" />
+            <Field name="Mar" />
+            <Field name="Apr" />
+            <Field name="May" />
+            <Field name="Jun" />
+            <Field name="Jul" />
+            <Field name="Aug" />
+            <Field name="Sep" />
+            <Field name="Oct" />
+            <Field name="Nov" />
+            <Field name="Dec" />
+            <Field name="Grand Total" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <NewFieldAddOn>% of Total</NewFieldAddOn>
+          <NewFieldAddOnPos>Prefix</NewFieldAddOnPos>
+          <CopyOutput value="True" />
+          <Expression>[_CurrentField_]/[Grand Total]*100</Expression>
+          <ChangeFieldType value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[_CurrentField_]/[Grand Total]*100</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Multi-Field Formula Tool</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
