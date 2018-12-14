@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="57">C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\InOut Palatte\Dataset\Store_Transactions.zip|||April 2016 Sales.xlsx[`Sales_Data$`];August 2016 Sales.xlsx[`Sales_Data$`];December 2016 Sales.xlsx[`Sales_Data$`];February 2016 Sales.xlsx[`Sales_Data$`];January 2016 Sales.xlsx[`Sales_Data$`];July 2016 Sales.xlsx[`Sales_Data$`];June 2016 Sales.xlsx[`Sales_Data$`];March 2016 Sales.xlsx[`Sales_Data$`];May 2016 Sales.xlsx[`Sales_Data$`];November Sales.xlsx[`Sales_Data$`];October 2016 Sales.xlsx[`Sales_Data$`];September 2016 Sales.xlsx[`Sales_Data$`]</File>
+          <FormatSpecificOptions>
+            <LargeZipFiles>False</LargeZipFiles>
+            <FirstRowData>False</FirstRowData>
+            <FileFormatInner>25</FileFormatInner>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Store_Transactions.zip
+Table=April 2016 Sales.xlsx[`Sales_Data$`];August 2016 Sales.xlsx[`Sales_Data$`];December 2016 Sales.xlsx[`Sales_Data$`];February 2016 Sales.xlsx[`Sales_Data$`];January 2016 Sales.xlsx[`Sales_Data$`];July 2016 Sales.xlsx[`Sales_Data$`];June 2016 Sales.xlsx[`Sales_Data$`];March 2016 Sales.xlsx[`Sales_Data$`];May 2016 Sales.xlsx[`Sales_Data$`];November Sales.xlsx[`Sales_Data$`];October 2016 Sales.xlsx[`Sales_Data$`];September 2016 Sales.xlsx[`Sales_Data$`]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Date" source="File: " type="Date" />
+            <Field name="Transaction Amount" source="File: " type="Double" />
+            <Field name="Department" size="255" source="File: " type="V_String" />
+            <Field name="Cashier" size="255" source="File: " type="V_String" />
+            <Field name="Store ZIP" size="255" source="File: " type="V_String" />
+            <Field name="Store City" size="255" source="File: " type="V_WString" />
+            <Field name="Store Region" size="255" source="File: " type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Input Data-Zipped File</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
