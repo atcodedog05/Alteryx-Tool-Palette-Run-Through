@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">.\Call Center Sales Data.xlsx|||`Worksheet$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Call Center Sales Data.xlsx
+Table=`Worksheet$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Sale DateTime" size="255" source="File: \\Mac\Home\Desktop\Alteryx Bootcamp\Lecture Resources\5.2 Running Total Tool\Call Center Sales Data.xlsx|||`Worksheet$`" type="V_String" />
+            <Field name="Transaction Amount" source="File: \\Mac\Home\Desktop\Alteryx Bootcamp\Lecture Resources\5.2 Running Total Tool\Call Center Sales Data.xlsx|||`Worksheet$`" type="Double" />
+            <Field name="Sales Rep" size="255" source="File: \\Mac\Home\Desktop\Alteryx Bootcamp\Lecture Resources\5.2 Running Total Tool\Call Center Sales Data.xlsx|||`Worksheet$`" type="V_String" />
+            <Field name="Order ID" size="255" source="File: \\Mac\Home\Desktop\Alteryx Bootcamp\Lecture Resources\5.2 Running Total Tool\Call Center Sales Data.xlsx|||`Worksheet$`" type="V_String" />
+            <Field name="Customer ID" size="255" source="File: \\Mac\Home\Desktop\Alteryx Bootcamp\Lecture Resources\5.2 Running Total Tool\Call Center Sales Data.xlsx|||`Worksheet$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Starter Workflow 5.2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

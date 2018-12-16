@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">.\Electronics Store - Monthly Revenue.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Electronics Store - Monthly Revenue.xlsx
+Table=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store Location" size="255" source="File: \\Mac\Home\Desktop\Alteryx Bootcamp\Lecture Resources\5.5 Transpose Tool\Electronics Store - Monthly Revenue.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Department" size="255" source="File: \\Mac\Home\Desktop\Alteryx Bootcamp\Lecture Resources\5.5 Transpose Tool\Electronics Store - Monthly Revenue.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="January" source="File: \\Mac\Home\Desktop\Alteryx Bootcamp\Lecture Resources\5.5 Transpose Tool\Electronics Store - Monthly Revenue.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="February" source="File: \\Mac\Home\Desktop\Alteryx Bootcamp\Lecture Resources\5.5 Transpose Tool\Electronics Store - Monthly Revenue.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="March" source="File: \\Mac\Home\Desktop\Alteryx Bootcamp\Lecture Resources\5.5 Transpose Tool\Electronics Store - Monthly Revenue.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="April" source="File: \\Mac\Home\Desktop\Alteryx Bootcamp\Lecture Resources\5.5 Transpose Tool\Electronics Store - Monthly Revenue.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="May" source="File: \\Mac\Home\Desktop\Alteryx Bootcamp\Lecture Resources\5.5 Transpose Tool\Electronics Store - Monthly Revenue.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="June" source="File: \\Mac\Home\Desktop\Alteryx Bootcamp\Lecture Resources\5.5 Transpose Tool\Electronics Store - Monthly Revenue.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="July" source="File: \\Mac\Home\Desktop\Alteryx Bootcamp\Lecture Resources\5.5 Transpose Tool\Electronics Store - Monthly Revenue.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="August" source="File: \\Mac\Home\Desktop\Alteryx Bootcamp\Lecture Resources\5.5 Transpose Tool\Electronics Store - Monthly Revenue.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="September" source="File: \\Mac\Home\Desktop\Alteryx Bootcamp\Lecture Resources\5.5 Transpose Tool\Electronics Store - Monthly Revenue.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="October" source="File: \\Mac\Home\Desktop\Alteryx Bootcamp\Lecture Resources\5.5 Transpose Tool\Electronics Store - Monthly Revenue.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="November" source="File: \\Mac\Home\Desktop\Alteryx Bootcamp\Lecture Resources\5.5 Transpose Tool\Electronics Store - Monthly Revenue.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="December" source="File: \\Mac\Home\Desktop\Alteryx Bootcamp\Lecture Resources\5.5 Transpose Tool\Electronics Store - Monthly Revenue.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="186" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Store Location" />
+            <Field field="Department" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Store Location" selected="False" />
+            <Field field="Department" selected="False" />
+            <Field field="January" selected="True" />
+            <Field field="February" selected="True" />
+            <Field field="March" selected="True" />
+            <Field field="April" selected="True" />
+            <Field field="May" selected="True" />
+            <Field field="June" selected="True" />
+            <Field field="July" selected="True" />
+            <Field field="August" selected="True" />
+            <Field field="September" selected="True" />
+            <Field field="October" selected="True" />
+            <Field field="November" selected="True" />
+            <Field field="December" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Starter Workflow 5.6</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
