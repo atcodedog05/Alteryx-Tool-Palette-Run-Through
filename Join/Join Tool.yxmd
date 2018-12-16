@@ -8,7 +8,7 @@
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Join\Dataset\Store Transactions.xls|||`Worksheet$`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">.\Dataset\Store Transactions.xls|||`Worksheet$`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <NoProgress>False</NoProgress>
@@ -42,7 +42,7 @@ Table=`Worksheet$`</DefaultAnnotationText>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Join\Dataset\Store Clubcard Members.xls|||`Worksheet$`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">.\Dataset\Store Clubcard Members.xls|||`Worksheet$`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <NoProgress>False</NoProgress>

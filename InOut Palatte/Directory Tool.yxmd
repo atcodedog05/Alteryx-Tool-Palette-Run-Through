@@ -3,17 +3,17 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Directory.Directory">
-        <Position x="78" y="126" />
+        <Position x="78" y="90" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Directory>C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\InOut Palatte\Dataset\Data</Directory>
+          <Directory>.\Dataset\Data</Directory>
           <FileSpec>*.*</FileSpec>
           <IncludeSubDirs value="False" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>dir C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\InOut Palatte\Dataset\Data\*.*</DefaultAnnotationText>
+          <DefaultAnnotationText>dir .\Dataset\Data\*.*</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
@@ -21,17 +21,17 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Directory.Directory">
-        <Position x="474" y="114" />
+        <Position x="474" y="78" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Directory>C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\InOut Palatte\Dataset\Data</Directory>
+          <Directory>.\Dataset\Data</Directory>
           <FileSpec>Transactions*.xlsx</FileSpec>
           <IncludeSubDirs value="False" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>dir C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\InOut Palatte\Dataset\Data\Transactions*.xlsx</DefaultAnnotationText>
+          <DefaultAnnotationText>dir .\Dataset\Data\Transactions*.xlsx</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
@@ -39,7 +39,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="54" y="90" width="100" height="24" />
+        <Position x="54" y="54" width="100" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -59,7 +59,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="450" y="90" width="100" height="24" />
+        <Position x="450" y="54" width="100" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>

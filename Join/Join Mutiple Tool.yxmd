@@ -3,12 +3,12 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="102" y="0" />
+        <Position x="54" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Join\Dataset\Store Transactions.xls|||`Worksheet$`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">.\Dataset\Store Transactions.xls|||`Worksheet$`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <NoProgress>False</NoProgress>
@@ -37,12 +37,12 @@ Table=`Worksheet$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="102" y="114" />
+        <Position x="54" y="168" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Join\Dataset\Store Clubcard Members.xls|||`Worksheet$`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">.\Dataset\Store Clubcard Members.xls|||`Worksheet$`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <NoProgress>False</NoProgress>
@@ -71,12 +71,12 @@ Table=`Worksheet$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="102" y="234" />
+        <Position x="54" y="288" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Join\Dataset\Employee.xls|||`Worksheet$`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">.\Dataset\Employee.xls|||`Worksheet$`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <NoProgress>False</NoProgress>
@@ -102,7 +102,7 @@ Table=`Worksheet$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
-        <Position x="330" y="114" />
+        <Position x="282" y="168" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -140,12 +140,12 @@ Table=`Worksheet$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="558" y="0" />
+        <Position x="510" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Join\Dataset\Store Transactions.xls|||`Worksheet$`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">.\Dataset\Store Transactions.xls|||`Worksheet$`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <NoProgress>False</NoProgress>
@@ -157,6 +157,9 @@ Table=`Worksheet$`</DefaultAnnotationText>
 Table=`Worksheet$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Purchase Date" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Join\Dataset\Store Transactions.xls|||`Worksheet$`" type="V_WString" />
@@ -171,12 +174,12 @@ Table=`Worksheet$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="558" y="114" />
+        <Position x="510" y="168" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Join\Dataset\Store Clubcard Members.xls|||`Worksheet$`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">.\Dataset\Store Clubcard Members.xls|||`Worksheet$`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <NoProgress>False</NoProgress>
@@ -188,6 +191,9 @@ Table=`Worksheet$`</DefaultAnnotationText>
 Table=`Worksheet$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="ID" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Join\Dataset\Store Clubcard Members.xls|||`Worksheet$`" type="V_WString" />
@@ -202,12 +208,12 @@ Table=`Worksheet$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="558" y="234" />
+        <Position x="510" y="288" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Join\Dataset\Employee.xls|||`Worksheet$`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">.\Dataset\Employee.xls|||`Worksheet$`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <NoProgress>False</NoProgress>
@@ -219,6 +225,9 @@ Table=`Worksheet$`</DefaultAnnotationText>
 Table=`Worksheet$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Employee ID" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Join\Dataset\Employee.xls|||`Worksheet$`" type="V_WString" />
@@ -230,7 +239,7 @@ Table=`Worksheet$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
-        <Position x="786" y="114" />
+        <Position x="738" y="168" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -268,7 +277,7 @@ Table=`Worksheet$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="318" y="78" width="84" height="24" />
+        <Position x="270" y="132" width="84" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -288,7 +297,7 @@ Table=`Worksheet$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="774" y="78" width="84" height="24" />
+        <Position x="726" y="132" width="84" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
