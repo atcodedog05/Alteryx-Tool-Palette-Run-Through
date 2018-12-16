@@ -23,5 +23,3 @@ Data and MetaData can be seen in the output anchor.
 10. **`Output Data Tool-MS SQL Server (AWS)`** : Connect to MS SQL databse over cloud and output data.
 
 11. **`Browse`** : Data profiling tool.
-
-
