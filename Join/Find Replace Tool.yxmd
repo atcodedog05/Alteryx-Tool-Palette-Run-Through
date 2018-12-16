@@ -1,0 +1,382 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="50" />
+          <Fields>
+            <Field name="State Name" />
+            <Field name="Abbreviation" />
+            <Field name="Population" />
+          </Fields>
+          <Data>
+            <r>
+              <c><![CDATA[ Alabama]]></c>
+              <c>AL</c>
+              <c>4,863,300</c>
+            </r>
+            <r>
+              <c><![CDATA[ Alaska]]></c>
+              <c>AK</c>
+              <c>741,894</c>
+            </r>
+            <r>
+              <c><![CDATA[ Arizona]]></c>
+              <c>AZ</c>
+              <c>6,931,071</c>
+            </r>
+            <r>
+              <c><![CDATA[ Arkansas]]></c>
+              <c>AR</c>
+              <c>2,988,248</c>
+            </r>
+            <r>
+              <c><![CDATA[ California]]></c>
+              <c>CA</c>
+              <c>39,250,017</c>
+            </r>
+            <r>
+              <c><![CDATA[ Colorado]]></c>
+              <c>CO</c>
+              <c>5,540,545</c>
+            </r>
+            <r>
+              <c><![CDATA[ Connecticut]]></c>
+              <c>CT</c>
+              <c>3,576,452</c>
+            </r>
+            <r>
+              <c><![CDATA[ Delaware]]></c>
+              <c>DE</c>
+              <c>952,065</c>
+            </r>
+            <r>
+              <c><![CDATA[ Florida]]></c>
+              <c>FL</c>
+              <c>20,612,439</c>
+            </r>
+            <r>
+              <c><![CDATA[ Georgia]]></c>
+              <c>GA</c>
+              <c>10,310,371</c>
+            </r>
+            <r>
+              <c><![CDATA[ Hawaii]]></c>
+              <c>HI</c>
+              <c>1,428,557</c>
+            </r>
+            <r>
+              <c><![CDATA[ Idaho]]></c>
+              <c>ID</c>
+              <c>1,683,140</c>
+            </r>
+            <r>
+              <c><![CDATA[ Illinois]]></c>
+              <c>IL</c>
+              <c>12,801,539</c>
+            </r>
+            <r>
+              <c><![CDATA[ Indiana]]></c>
+              <c>IN</c>
+              <c>6,633,053</c>
+            </r>
+            <r>
+              <c><![CDATA[ Iowa]]></c>
+              <c>IA</c>
+              <c>3,134,693</c>
+            </r>
+            <r>
+              <c><![CDATA[ Kansas]]></c>
+              <c>KS</c>
+              <c>2,907,289</c>
+            </r>
+            <r>
+              <c><![CDATA[ Kentucky[D]]]></c>
+              <c>KY</c>
+              <c>4,436,974</c>
+            </r>
+            <r>
+              <c><![CDATA[ Louisiana]]></c>
+              <c>LA</c>
+              <c>4,681,666</c>
+            </r>
+            <r>
+              <c><![CDATA[ Maine]]></c>
+              <c>ME</c>
+              <c>1,331,479</c>
+            </r>
+            <r>
+              <c><![CDATA[ Maryland]]></c>
+              <c>MD</c>
+              <c>6,016,447</c>
+            </r>
+            <r>
+              <c><![CDATA[ Massachusetts[E]]]></c>
+              <c>MA</c>
+              <c>6,811,779</c>
+            </r>
+            <r>
+              <c><![CDATA[ Michigan]]></c>
+              <c>MI</c>
+              <c>9,928,300</c>
+            </r>
+            <r>
+              <c><![CDATA[ Minnesota]]></c>
+              <c>MN</c>
+              <c>5,519,952</c>
+            </r>
+            <r>
+              <c><![CDATA[ Mississippi]]></c>
+              <c>MS</c>
+              <c>2,988,726</c>
+            </r>
+            <r>
+              <c><![CDATA[ Missouri]]></c>
+              <c>MO</c>
+              <c>6,093,000</c>
+            </r>
+            <r>
+              <c><![CDATA[ Montana]]></c>
+              <c>MT</c>
+              <c>1,042,520</c>
+            </r>
+            <r>
+              <c><![CDATA[ Nebraska]]></c>
+              <c>NE</c>
+              <c>1,907,116</c>
+            </r>
+            <r>
+              <c><![CDATA[ Nevada]]></c>
+              <c>NV</c>
+              <c>2,940,058</c>
+            </r>
+            <r>
+              <c><![CDATA[ New Hampshire]]></c>
+              <c>NH</c>
+              <c>1,334,795</c>
+            </r>
+            <r>
+              <c><![CDATA[ New Jersey]]></c>
+              <c>NJ</c>
+              <c>8,944,469</c>
+            </r>
+            <r>
+              <c><![CDATA[ New Mexico]]></c>
+              <c>NM</c>
+              <c>2,081,015</c>
+            </r>
+            <r>
+              <c><![CDATA[ New York]]></c>
+              <c>NY</c>
+              <c>19,745,289</c>
+            </r>
+            <r>
+              <c><![CDATA[ North Carolina]]></c>
+              <c>NC</c>
+              <c>10,146,788</c>
+            </r>
+            <r>
+              <c><![CDATA[  North Dakota]]></c>
+              <c>ND</c>
+              <c>757,952</c>
+            </r>
+            <r>
+              <c><![CDATA[ Ohio]]></c>
+              <c>OH</c>
+              <c>11,614,373</c>
+            </r>
+            <r>
+              <c><![CDATA[ Oklahoma]]></c>
+              <c>OK</c>
+              <c>3,923,561</c>
+            </r>
+            <r>
+              <c><![CDATA[ Oregon]]></c>
+              <c>OR</c>
+              <c>4,093,465</c>
+            </r>
+            <r>
+              <c><![CDATA[ Pennsylvania[F]]]></c>
+              <c>PA</c>
+              <c>12,784,227</c>
+            </r>
+            <r>
+              <c><![CDATA[ Rhode Island[G]]]></c>
+              <c>RI</c>
+              <c>1,056,426</c>
+            </r>
+            <r>
+              <c><![CDATA[ South Carolina]]></c>
+              <c>SC</c>
+              <c>4,961,119</c>
+            </r>
+            <r>
+              <c><![CDATA[ South Dakota]]></c>
+              <c>SD</c>
+              <c>865,454</c>
+            </r>
+            <r>
+              <c><![CDATA[ Tennessee]]></c>
+              <c>TN</c>
+              <c>6,651,194</c>
+            </r>
+            <r>
+              <c><![CDATA[ Texas]]></c>
+              <c>TX</c>
+              <c>27,862,596</c>
+            </r>
+            <r>
+              <c><![CDATA[ Utah]]></c>
+              <c>UT</c>
+              <c>3,051,217</c>
+            </r>
+            <r>
+              <c><![CDATA[ Vermont]]></c>
+              <c>VT</c>
+              <c>624,594</c>
+            </r>
+            <r>
+              <c><![CDATA[ Virginia[H]]]></c>
+              <c>VA</c>
+              <c>8,411,808</c>
+            </r>
+            <r>
+              <c><![CDATA[ Washington]]></c>
+              <c>WA</c>
+              <c>7,288,000</c>
+            </r>
+            <r>
+              <c><![CDATA[ West Virginia]]></c>
+              <c>WV</c>
+              <c>1,831,102</c>
+            </r>
+            <r>
+              <c><![CDATA[ Wisconsin]]></c>
+              <c>WI</c>
+              <c>5,778,708</c>
+            </r>
+            <r>
+              <c><![CDATA[ Wyoming]]></c>
+              <c>WY</c>
+              <c>585,501</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>State Lookup</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Join\Dataset\Store Revenue by State.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Store Revenue by State.xlsx
+Table=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="State" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Join\Dataset\Store Revenue by State.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Revenue" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Join\Dataset\Store Revenue by State.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="198" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>State</FieldFind>
+          <FieldSearch>Abbreviation</FieldSearch>
+          <ReplaceFoundField>State Name</ReplaceFoundField>
+          <FindMode>FindAny</FindMode>
+          <NoCase value="True" />
+          <MatchWholeWord value="False" />
+          <ReplaceMode>Replace</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Targets" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Find Replace Tool</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
