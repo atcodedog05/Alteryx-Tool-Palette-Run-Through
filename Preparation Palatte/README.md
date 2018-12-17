@@ -2,7 +2,7 @@
 
 Data and MetaData can be seen in the output anchor.
 
-1. **`Select Tool`** : Let you to Select/Deselect the fields, Rename the fields, Change data types of fields and Reorder fields.
+1. **`Select Tool`** : Lets you to Select/Deselect the fields, Rename the fields, Change datatype of fields and Reorder fields.
 
 2. **`Data Cleaning Tool`**: Cleans up String fields. Remove leading/trailing whitespaces, numbers, special characters etc.
 
