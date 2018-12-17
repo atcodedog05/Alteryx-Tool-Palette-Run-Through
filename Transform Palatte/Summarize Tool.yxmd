@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Transform\Dataset\Product Sales.xlsx|||`Product Sales$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Product Sales.xlsx
+Table=`Product Sales$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Retailer country" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Transform\Dataset\Product Sales.xlsx|||`Product Sales$`" type="V_String" />
+            <Field name="Order method type" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Transform\Dataset\Product Sales.xlsx|||`Product Sales$`" type="V_String" />
+            <Field name="Retailer type" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Transform\Dataset\Product Sales.xlsx|||`Product Sales$`" type="V_String" />
+            <Field name="Product line" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Transform\Dataset\Product Sales.xlsx|||`Product Sales$`" type="V_String" />
+            <Field name="Product type" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Transform\Dataset\Product Sales.xlsx|||`Product Sales$`" type="V_String" />
+            <Field name="Product" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Transform\Dataset\Product Sales.xlsx|||`Product Sales$`" type="V_String" />
+            <Field name="Year" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Transform\Dataset\Product Sales.xlsx|||`Product Sales$`" type="Double" />
+            <Field name="Quarter" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Transform\Dataset\Product Sales.xlsx|||`Product Sales$`" type="V_String" />
+            <Field name="Revenue" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Transform\Dataset\Product Sales.xlsx|||`Product Sales$`" type="Double" />
+            <Field name="Quantity" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Transform\Dataset\Product Sales.xlsx|||`Product Sales$`" type="Double" />
+            <Field name="Gross margin" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\Transform\Dataset\Product Sales.xlsx|||`Product Sales$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="222" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Retailer country" action="GroupBy" rename="Retailer country" />
+            <SummarizeField field="Revenue" action="Sum" rename="Sum_Revenue" />
+            <SummarizeField field="Quantity" action="Max" rename="Max_Quantity" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Summarize Tool</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">.\Dataset\December 2016 Sales.xlsx|||`Sales_Data$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>December 2016 Sales.xlsx
+Table=`Sales_Data$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Date" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\InOut Palatte\Dataset\December 2016 Sales.xlsx|||`Sales_Data$`" type="V_String" />
+            <Field name="Transaction Amount" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\InOut Palatte\Dataset\December 2016 Sales.xlsx|||`Sales_Data$`" type="Double" />
+            <Field name="Department" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\InOut Palatte\Dataset\December 2016 Sales.xlsx|||`Sales_Data$`" type="V_String" />
+            <Field name="Cashier" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\InOut Palatte\Dataset\December 2016 Sales.xlsx|||`Sales_Data$`" type="V_String" />
+            <Field name="Store ZIP" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\InOut Palatte\Dataset\December 2016 Sales.xlsx|||`Sales_Data$`" type="V_String" />
+            <Field name="Store City" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\InOut Palatte\Dataset\December 2016 Sales.xlsx|||`Sales_Data$`" type="V_WString" />
+            <Field name="Store Region" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\InOut Palatte\Dataset\December 2016 Sales.xlsx|||`Sales_Data$`" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="186" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ezmanki\AppData\Local\Temp\Engine_2596_246671fe4fd04cfca296d9c7c84bf51a_\Engine_9040_cf79e099313e47fd9d0622ca1ebe438b_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Browse Tool</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

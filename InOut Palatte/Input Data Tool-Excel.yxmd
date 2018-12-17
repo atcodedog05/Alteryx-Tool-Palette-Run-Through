@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">.\Dataset\December 2016 Sales.xlsx|||`Sales_Data$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>December 2016 Sales.xlsx
+Table=`Sales_Data$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Date" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\InOut Palatte\Dataset\December 2016 Sales.xlsx|||`Sales_Data$`" type="V_String" />
+            <Field name="Transaction Amount" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\InOut Palatte\Dataset\December 2016 Sales.xlsx|||`Sales_Data$`" type="Double" />
+            <Field name="Department" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\InOut Palatte\Dataset\December 2016 Sales.xlsx|||`Sales_Data$`" type="V_String" />
+            <Field name="Cashier" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\InOut Palatte\Dataset\December 2016 Sales.xlsx|||`Sales_Data$`" type="V_String" />
+            <Field name="Store ZIP" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\InOut Palatte\Dataset\December 2016 Sales.xlsx|||`Sales_Data$`" type="V_String" />
+            <Field name="Store City" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\InOut Palatte\Dataset\December 2016 Sales.xlsx|||`Sales_Data$`" type="V_WString" />
+            <Field name="Store Region" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Alteryx-Tool-Palette-Run-Through\InOut Palatte\Dataset\December 2016 Sales.xlsx|||`Sales_Data$`" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Input Data Tool-Excel</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
