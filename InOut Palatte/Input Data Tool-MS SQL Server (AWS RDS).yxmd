@@ -3,13 +3,13 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="126" />
+        <Position x="54" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
           <CachedCosmeticName />
-          <File RecordLimit="" FileFormat="23">aka:AWS MS SQL|||"tempdb"."dbo"."crew"</File>
+          <File RecordLimit="" FileFormat="23">aka:AWS MS SQL|||"tempdb"."dbo"."Alteryx DB Stream out"</File>
           <FormatSpecificOptions>
             <PreSQLOnConfig>True</PreSQLOnConfig>
             <ReadCentroids>False</ReadCentroids>
@@ -23,7 +23,7 @@
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText>aka:AWS MS SQL
-Table="tempdb"."dbo"."crew"</DefaultAnnotationText>
+Table="tempdb"."dbo"."Alteryx DB Stream out"</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
         <Dependencies>
@@ -31,8 +31,13 @@ Table="tempdb"."dbo"."crew"</DefaultAnnotationText>
         </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Name" size="17" source="File: aka:AWS MS SQL|||&quot;tempdb&quot;.&quot;dbo&quot;.&quot;crew&quot;" type="V_String" />
-            <Field name="Crew Role" size="13" source="File: aka:AWS MS SQL|||&quot;tempdb&quot;.&quot;dbo&quot;.&quot;crew&quot;" type="String" />
+            <Field name="Date" size="255" source="File: aka:AWS MS SQL|||&quot;tempdb&quot;.&quot;dbo&quot;.&quot;Alteryx DB Stream out&quot;" type="V_String" />
+            <Field name="Transaction Amount" source="File: aka:AWS MS SQL|||&quot;tempdb&quot;.&quot;dbo&quot;.&quot;Alteryx DB Stream out&quot;" type="Double" />
+            <Field name="Department" size="255" source="File: aka:AWS MS SQL|||&quot;tempdb&quot;.&quot;dbo&quot;.&quot;Alteryx DB Stream out&quot;" type="V_String" />
+            <Field name="Cashier" size="255" source="File: aka:AWS MS SQL|||&quot;tempdb&quot;.&quot;dbo&quot;.&quot;Alteryx DB Stream out&quot;" type="V_String" />
+            <Field name="Store ZIP" size="255" source="File: aka:AWS MS SQL|||&quot;tempdb&quot;.&quot;dbo&quot;.&quot;Alteryx DB Stream out&quot;" type="V_String" />
+            <Field name="Store City" size="255" source="File: aka:AWS MS SQL|||&quot;tempdb&quot;.&quot;dbo&quot;.&quot;Alteryx DB Stream out&quot;" type="V_WString" />
+            <Field name="Store Region" size="255" source="File: aka:AWS MS SQL|||&quot;tempdb&quot;.&quot;dbo&quot;.&quot;Alteryx DB Stream out&quot;" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
       </Properties>

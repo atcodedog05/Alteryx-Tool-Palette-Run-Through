@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.4">
+  <Nodes>
+    <Node ToolID="9">
+      <GuiSettings Plugin="LockInGui.LockInInput.LockInInput">
+        <Position x="246" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Connection>AWS RDS 2</Connection>
+          <Query>dbo."Sales Data"</Query>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=AWS RDS 2
+Table=dbo."Sales Data"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="LockInGui.LockInBrowse.LockInBrowse">
+        <Position x="462" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFileDataProfiling />
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <FirstNRecords>200</FirstNRecords>
+          <UseCache value="True" />
+          <DataFromCache>False</DataFromCache>
+          <CacheKey>e2ca106457a2c94ff257aa3a3e5b0881</CacheKey>
+          <TempFile>C:\Users\ezmanki\AppData\Local\Temp\Engine_7132_b40f9ebfda35422c8414eef1cd2edfda_\..\Engine_4392_._AlteryxInDBBrowseCache_e2ca106457a2c94ff257aa3a3e5b0881.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 200 records
+Caching enabled</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInBrowse" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="LockInGui.LockInStreamIn.LockInStreamIn">
+        <Position x="246" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Connection>AWS RDS 2</Connection>
+          <CreateMode>TempTable</CreateMode>
+          <Table />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=AWS RDS 2
+Temporary Table</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInStreamIn" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\ezmanki\Desktop\Alteryx Git\Sandbox\Alteryx-Tool-Palette-Run-Through\In Database Palatte\Dataset\November Sales.xlsx|||`Sales_Data$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>November Sales.xlsx
+Table=`Sales_Data$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Date" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Sandbox\Alteryx-Tool-Palette-Run-Through\In Database Palatte\Dataset\November Sales.xlsx|||`Sales_Data$`" type="V_String" />
+            <Field name="Transaction Amount" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Sandbox\Alteryx-Tool-Palette-Run-Through\In Database Palatte\Dataset\November Sales.xlsx|||`Sales_Data$`" type="Double" />
+            <Field name="Department" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Sandbox\Alteryx-Tool-Palette-Run-Through\In Database Palatte\Dataset\November Sales.xlsx|||`Sales_Data$`" type="V_String" />
+            <Field name="Cashier" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Sandbox\Alteryx-Tool-Palette-Run-Through\In Database Palatte\Dataset\November Sales.xlsx|||`Sales_Data$`" type="V_String" />
+            <Field name="Store ZIP" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Sandbox\Alteryx-Tool-Palette-Run-Through\In Database Palatte\Dataset\November Sales.xlsx|||`Sales_Data$`" type="V_String" />
+            <Field name="Store City" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Sandbox\Alteryx-Tool-Palette-Run-Through\In Database Palatte\Dataset\November Sales.xlsx|||`Sales_Data$`" type="V_WString" />
+            <Field name="Store Region" size="255" source="File: C:\Users\ezmanki\Desktop\Alteryx Git\Sandbox\Alteryx-Tool-Palette-Run-Through\In Database Palatte\Dataset\November Sales.xlsx|||`Sales_Data$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="LockInGui.LockInUnion.LockInUnion">
+        <Position x="378" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>ByName</Mode>
+          <FieldMode>All</FieldMode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInUnion" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#2">
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Union In DB Tool</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
