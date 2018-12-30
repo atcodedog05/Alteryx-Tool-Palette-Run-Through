@@ -10,6 +10,8 @@
 
 5. [**`Parse Palette`**](https://github.com/atcodedog05/Alteryx-Tool-Palette-Run-Through/tree/master/Parse%20Palatte#parse-palette) : Data Parse palette. 
 
-6. [**`Reporting Palette`**](https://github.com/atcodedog05/Alteryx-Tool-Palette-Run-Through/tree/master/Reporting%20Palatte#reporting-palette) : Data Parse palette. 
+6. [**`Reporting Palette`**](https://github.com/atcodedog05/Alteryx-Tool-Palette-Run-Through/tree/master/Reporting%20Palatte#reporting-palette) : Data Reporting palette. 
 
-7. [**`In Database Palette`**](https://github.com/atcodedog05/Alteryx-Tool-Palette-Run-Through/tree/master/Parse#parse-palette) : Data Parse palette. 
+7. [**`In Database Palette`**](https://github.com/atcodedog05/Alteryx-Tool-Palette-Run-Through/tree/master/In%20Database%20Palatte#in-database-palette) : Data In Database palette. 
+
+8. [**`Documentation Palette`**](https://github.com/atcodedog05/Alteryx-Tool-Palette-Run-Through/tree/master/Documentation%20Palatte) : Documentation palette. 
