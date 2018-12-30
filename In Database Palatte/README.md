@@ -18,7 +18,7 @@ In Palatte section is covered by MS SQL server hosted on AWS RDS
 
 7. **`Join In-DB Tool`** : Join tool for a Database dynamic workflow.
 
-8. **`Data Stream In Tool`** : Database dynamic workflow ot static workflow stream out.
+8. **`Data Stream In Tool`** : Database dynamic workflow of static workflow stream out.
 
 9. **`Summarize In-DB Tool`** : Summarize tool for a Database dynamic workflow.
 
