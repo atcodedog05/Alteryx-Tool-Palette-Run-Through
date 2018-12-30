@@ -14,4 +14,4 @@
 
 7. [**`In Database Palette`**](https://github.com/atcodedog05/Alteryx-Tool-Palette-Run-Through/tree/master/In%20Database%20Palatte#in-database-palette) : Custom Tool Palette designed for providing the ability to perform actions within the Database environement.  
 
-8. [**`Documentation Palette`**](https://github.com/atcodedog05/Alteryx-Tool-Palette-Run-Through/tree/master/Documentation%20Palatte) : Tool Palette designed for provding info within the workflows.
+8. [**`Documentation Palette`**](https://github.com/atcodedog05/Alteryx-Tool-Palette-Run-Through/blob/master/Documentation%20Palatte/README.md#documentation-palette) : Tool Palette designed for provding info within the workflows.
