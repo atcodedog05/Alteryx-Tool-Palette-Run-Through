@@ -4,7 +4,7 @@ Data and MetaData can be seen in the output anchor.
 
 1. **`Join Tool`** : Performs Left join, Right join and Inner join on two datasets.
 
-2. **`Join Multiple Tool`** : Performs Full outer join or Full inner join for on two or more datasets.
+2. **`Join Multiple Tool`** : Performs Full outer join or Full inner join on two or more datasets.
 
 3. **`Union Tool`** : Doesn't perform a Join instead stacks rows from multiple dataset into a single stack.
 
